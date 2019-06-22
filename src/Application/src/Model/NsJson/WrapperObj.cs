@@ -1,6 +1,6 @@
 namespace DotnetExamples.Model.NsJson
 {
-    public class WrapperObj<T>
+    public abstract class WrapperObj<T>
     {
         public readonly T Value;
 
